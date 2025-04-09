@@ -10,9 +10,9 @@ Catálogo de Dados MVP-F1:
 5.  Driver_Standings ....... Classificação de Pilotos
 6.  Driver ................. Pilotos
 7.  Lap_Times .............. Telemetria - Tempos dos Pilotos nas Corridas
-8.  Pit_Stops .............. Pit Stops nas Corrisas
+8.  Pit_Stops .............. Pit Stops nas Corridas
 9.  Qualifying ............. Telemetria - Tempos dos Pilotos na Classificação para Corrida.
-10.  Races ................. Corridas realizadas na Temporada.
+10. Races .................. Corridas realizadas na Temporada.
 11. Results ................ Resultados das Corridas.
 12. Seasons ................ Temporadas
 13. Sprint_Results ......... Resultados das Corridas Sprint
