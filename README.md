@@ -1,6 +1,10 @@
 # f1
 Sistema Estatística F1 de 1950 até hoje.
 
+>> Link Data_Lake MVP-F1:
+
+https://app.powerbi.com/links/0WuR7JDpec?ctid=e77880d6-8120-45f3-ba0f-414e143d43c7&pbi_source=linkShare&language=pt-BR&clientSideAuth=0&experience=fabric-developer
+
 Catálogo de Dados MVP-F1:
 
 1.  Circuits ............... Pistas Grande Prêmios
