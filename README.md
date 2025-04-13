@@ -1,6 +1,66 @@
 # MVP-F1
 Sistema Estatística F1 de 1950 até hoje.
 
+# Objetivo MVP-F1
+
+# Desenvolver um Minimum Viable Product (MVP) que demonstre a capacidade de coletar, processar, armazenar e analisar dados históricos da Fórmula 1 ao longo de seus 75 anos, gerando insights valiosos para entusiastas, analistas e potenciais usuários de uma plataforma de dados mais completa. Proposta do MVP:
+
+Criar um fluxo de dados simplificado, desde a coleta de dados brutos até a visualização de insights, utilizando tecnologias modernas de dados e analytics. O MVP focará em demonstrar a viabilidade da arquitetura e a potencial riqueza de informações contidas nos dados históricos da F1. Tópicos sobre a Coleta de Dados e Processamento:
+
+# Coleta de Dados no Dataset (Fontes):
+
+Fontes Primárias (Web Scraping): Identificar e implementar rotinas de web scraping para extrair dados de sites especializados em estatísticas de F1 (ex: Ergast Developer API como fonte inicial e complementar com outros sites para dados mais detalhados).
+Fontes Secundárias (Datasets Públicos): Explorar e integrar datasets públicos disponíveis que contenham informações históricas da F1 (ex: Kaggle, repositórios de dados).
+Foco Inicial: Priorizar a coleta de dados essenciais como:
+Resultados de corridas (posição, piloto, equipe, tempo, pontos).
+Informações sobre pilotos (nome, nacionalidade, data de nascimento).
+Informações sobre equipes (nome, nacionalidade).
+Informações sobre temporadas (ano).
+Informações sobre circuitos (nome, país).
+ETL (Extract, Transform, Load) para o Dataset:
+
+Extração: Desenvolver scripts Python para extrair os dados das fontes identificadas (web scraping e leitura de arquivos).
+Transformação:
+Limpeza de Dados: Tratar valores ausentes, inconsistências e erros de formatação.
+Padronização: Unificar formatos de datas, nomes de pilotos e equipes.
+Estruturação: Organizar os dados em estruturas tabulares (DataFrames do Pandas).
+Enriquecimento (Básico): Criar colunas derivadas simples, como a diferença de tempo entre pilotos.
+Load (Exportação CSV): Inicialmente, exportar os DataFrames transformados para arquivos CSV como um passo intermediário para facilitar a ingestão no PostgreSQL.
+Exportando os Dados CSV para PostgreSQL:
+
+Configuração do Banco de Dados: Configurar uma instância local ou em nuvem do PostgreSQL.
+Criação de Tabelas: Definir o esquema das tabelas no PostgreSQL para armazenar os dados de corridas, pilotos, equipes, temporadas e circuitos.
+Ingestão de Dados: Utilizar ferramentas ou scripts Python (com bibliotecas como psycopg2) para ler os arquivos CSV e inserir os dados nas tabelas correspondentes do PostgreSQL.
+Microsoft Fabric num DataLake:
+Configuração do Lakehouse (DataLake Gen2 subjacente): Provisionar um Lakehouse no Microsoft Fabric.
+
+Ingestão de Dados do PostgreSQL para o Lakehouse: Utilizar Pipelines do Fabric Data Factory ou notebooks Spark para conectar ao PostgreSQL e copiar os dados para as tabelas gerenciadas ou não gerenciadas do Lakehouse.
+
+Estrutura do DataLake: Organizar os dados no Lakehouse de forma lógica (por exemplo, pastas para cada entidade: races, drivers, teams).
+
+Geração de Insights através de Notebooks Python e SparkSQL:
+
+# Conexão ao Lakehouse:
+
+Utilizar notebooks Python (com bibliotecas como pyspark) e SparkSQL dentro do Microsoft Fabric para acessar os dados no Lakehouse.
+Análises Exploratórias (EDA): Realizar análises iniciais para entender a distribuição dos dados, identificar tendências e padrões.
+Criação de Métricas e Agregações:
+Número de vitórias por piloto e equipe ao longo dos anos.
+Porcentagem de vitórias por nacionalidade de piloto e equipe.
+Evolução do número de equipes e pilotos participantes por temporada.
+Comparação de desempenho entre pilotos e equipes em diferentes circuitos.
+Identificação de eras de domínio de pilotos e equipes.
+Utilização de SparkSQL: Executar queries SQL diretamente nos dados do Lakehouse para realizar agregações e filtros complexos de forma eficiente.
+Gráficos e Dashboards:
+
+Visualização com Python (Matplotlib, Seaborn, Plotly): Gerar gráficos informativos dentro dos notebooks Python para visualizar os insights (gráficos de linha para tendências, gráficos de barra para comparações, etc.).
+Criação de Dashboards no Microsoft Fabric: Utilizar o Power BI integrado ao Fabric para criar dashboards interativos que apresentem os principais insights de forma clara e concisa. Os dashboards podem incluir:
+Ranking de pilotos e equipes por número de títulos e vitórias.
+Visualização da evolução do desempenho ao longo do tempo.
+Comparativos entre diferentes eras da Fórmula 1.
+Filtros interativos por temporada, piloto, equipe e circuito.
+Este MVP-F1 fornecerá uma base sólida para futuras expansões, como a inclusão de dados mais detalhados (qualificação, voltas mais rápidas, abandonos), a implementação de análises preditivas e a criação de uma interface de usuário mais amigável. O foco inicial é demonstrar a capacidade de integrar diferentes tecnologias para extrair valor dos dados históricos da Fórmula 1.
+
 # >> Link Data_Lake MVP-F1:
 
 https://app.powerbi.com/links/0WuR7JDpec?ctid=e77880d6-8120-45f3-ba0f-414e143d43c7&pbi_source=linkShare&language=pt-BR&clientSideAuth=0&experience=fabric-developer
