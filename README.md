@@ -1,9 +1,14 @@
 # MVP-F1
 Sistema Estatística F1 de 1950 até hoje.
 
+# Wiki MVP-F1
+Todo o Funcionamento, Recursos, Coleta, Catálogo, Analise de Dados, Insights com Solução de Problemas estão na # Wiki.
+
 # Objetivo MVP-F1
 
-# Desenvolver um Minimum Viable Product (MVP) que demonstre a capacidade de coletar, processar, armazenar e analisar dados históricos da Fórmula 1 ao longo de seus 75 anos, gerando insights valiosos para entusiastas, analistas e potenciais usuários de uma plataforma de dados mais completa. Proposta do MVP:
+# Desenvolver um Minimum Viable Product (MVP) que demonstre a capacidade de coletar, processar, armazenar e analisar dados históricos da Fórmula 1 ao longo de seus 75 anos, gerando insights valiosos para entusiastas, analistas e potenciais usuários de uma plataforma de dados mais completa. 
+
+# Proposta do MVP:
 
 Criar um fluxo de dados simplificado, desde a coleta de dados brutos até a visualização de insights, utilizando tecnologias modernas de dados e analytics. O MVP focará em demonstrar a viabilidade da arquitetura e a potencial riqueza de informações contidas nos dados históricos da F1. Tópicos sobre a Coleta de Dados e Processamento:
 
