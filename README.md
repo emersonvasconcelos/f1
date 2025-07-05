@@ -47,26 +47,39 @@ Seaborn
 1. Objetivo: entender e descrever claramente o problema que está sendo resolvido.
 
 1.1. Qual é a descrição do problema?
+
 1.2. Este é um problema de aprendizado supervisionado ou não supervisionado?
+
 1.3. Que premissas ou hipóteses você tem sobre o problema?
+
 1.4. Que restrições ou condições foram impostas para selecionar os dados?
+
 1.5. Defina cada um dos atributos do dataset.
+
 
 >> Análise de dados | Objetivo: entender a informação disponível.
 
 2. Estatísticas descritivas:
 
 2.1. Quantos atributos e instâncias existem?
+
 2.2. Quais são os tipos de dados dos atributos?
+
 2.3. Verifique as primeiras linhas do dataset. Algo chama a atenção?
+
 2.4. Há valores faltantes, discrepantes ou inconsistentes?
+
 2.5. Faça um resumo estatístico dos atributos com valor numérico (mínimo, máximo, mediana, moda, média, desvio-padrão e número de valores ausentes). O que você percebe?
+
 
 3. Visualizações:
 
 3.1. Verifique a distribuição de cada atributo.
+
 3.2. O que você percebe? Dica: esta etapa pode dar ideias sobre a necessidade de transformações na etapa de preparação de dados (por exemplo, converter atributos de um tipo para outro, realizar operações de discretização, normalização, padronização, etc.).
+
 3.3. Se for um problema de classificação, verifique a distribuição de frequência das classes. O que você percebe? Dica: esta etapa pode indicar a possível necessidade futura de balanceamento de classes. Analise os atributos individualmente ou de forma combinada, usando os gráficos mais apropriados.
+
 
 4. Pré-Processamento de Dados:
 
@@ -88,11 +101,16 @@ Explique, passo a passo, as operações realizadas, justificando cada uma delas.
 Se julgar necessário, utilizando os dados pré-processados, volte na etapa de análise exploratória e verifique se surge algum insight diferente após as operações realizadas.
 
 5. Outliers
+
 6. Visualização da Distribuição dos Atributos
+
 7. O que observar nos gráficos numéricos:
+
 8. O que observar nos gráficos categóricos:
+
 9. Gerar gráficos de correlação de Pearson.
-10.Correlação de Spearman
+
+10. Correlação de Spearman
 
 # MVP-F1
 Sistema Estatística F1 de 1950 até hoje.
