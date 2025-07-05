@@ -1,3 +1,86 @@
+# MVP-F1 Warm-Up Análise Exploratória:
+
+Escopo do Projeto MVP-F1 Warm-Up:
+
+Contexto, storytelling e hipóteses bem definidas
+
+Carregamento -> Análise exploratória -> (Pré-processamento) -> Limpeza -> Split -> Transformações
+
+Estatísticas descritivas (min, max, média, mediana, moda, desvio padrão);
+
+Visualizações (histogramas, scatter, boxplots) com insights comentados;
+
+Pré-processamento com one-hot encoding e balanceamento via SMOTE;
+
+Baseline de Random Forest com avaliação (acurácia, F1‑score, matriz de confusão);
+
+Checklists respondida, código limpo e bem documentado.
+
+OutLiers
+
+Distribuição de Atributos
+
+Gráficos
+
+Correlação Pearson
+Usar correlação de pearson para variáveis numéricas contínuas
+Usar correlação de spearman para variáveis ordinais ou com relação não linear
+
+Interpretação da correlação:
+Correlação positiva —> ambas sobem ou descem juntas
+Sem correlação —> não têm relação direta
+Correlação negativa —> uma sobe, a outra desce
+
+Correlação de Spearman.
+
+
+Índice MVP-F1 Warm-Up:
+
+>> Análise Exploratória
+
+Pandas
+Matplotlib
+Seaborn
+
+>> Definição do Problema:
+
+1. Objetivo: entender e descrever claramente o problema que está sendo resolvido.
+
+1.1. Qual é a descrição do problema?
+1.2. Este é um problema de aprendizado supervisionado ou não supervisionado?
+1.3. Que premissas ou hipóteses você tem sobre o problema?
+1.4. Que restrições ou condições foram impostas para selecionar os dados?
+1.5. Defina cada um dos atributos do dataset.
+
+>> Análise de dados | Objetivo: entender a informação disponível.
+
+2. Estatísticas descritivas:
+
+2.1. Quantos atributos e instâncias existem?
+2.2. Quais são os tipos de dados dos atributos?
+2.3. Verifique as primeiras linhas do dataset. Algo chama a atenção?
+2.4. Há valores faltantes, discrepantes ou inconsistentes?
+2.5. Faça um resumo estatístico dos atributos com valor numérico (mínimo, máximo, mediana, moda, média, desvio-padrão e número de valores ausentes). O que você percebe?
+
+3. Visualizações:
+
+3.1. Verifique a distribuição de cada atributo.
+3.2. O que você percebe? Dica: esta etapa pode dar ideias sobre a necessidade de transformações na etapa de preparação de dados (por exemplo, converter atributos de um tipo para outro, realizar operações de discretização, normalização, padronização, etc.).
+3.3. Se for um problema de classificação, verifique a distribuição de frequência das classes. O que você percebe? Dica: esta etapa pode indicar a possível necessidade futura de balanceamento de classes. Analise os atributos individualmente ou de forma combinada, usando os gráficos mais apropriados.
+
+4. Pré-Processamento de Dados:
+
+4.1. Objetivo: realizar operações de limpeza, tratamento e preparação dos dados.
+4.2. Verifique quais operações de pré-processamento podem ser interessantes para o seu problema e salve visões diferentes do seu dataset (por exemplo, normalização, padronização, discretização e one-hot-encoding).
+4.3. Trate (removendo ou substituindo) os valores faltantes (se existentes). Realize outras transformações de dados porventura necessárias. Explique, passo a passo, as operações realizadas, justificando cada uma delas. Se julgar necessário, utilizando os dados pré-processados, volte na etapa de análise exploratória e verifique se surge algum insight diferente após as operações realizadas.
+
+5. Outliers
+6. Visualização da Distribuição dos Atributos
+7. O que observar nos gráficos numéricos:
+8. O que observar nos gráficos categóricos:
+9. Gerar gráficos de correlação de Pearson.
+10.Correlação de Spearman
+
 # MVP-F1
 Sistema Estatística F1 de 1950 até hoje.
 
