@@ -70,9 +70,22 @@ Seaborn
 
 4. Pré-Processamento de Dados:
 
-4.1. Objetivo: realizar operações de limpeza, tratamento e preparação dos dados.
-4.2. Verifique quais operações de pré-processamento podem ser interessantes para o seu problema e salve visões diferentes do seu dataset (por exemplo, normalização, padronização, discretização e one-hot-encoding).
-4.3. Trate (removendo ou substituindo) os valores faltantes (se existentes). Realize outras transformações de dados porventura necessárias. Explique, passo a passo, as operações realizadas, justificando cada uma delas. Se julgar necessário, utilizando os dados pré-processados, volte na etapa de análise exploratória e verifique se surge algum insight diferente após as operações realizadas.
+4.1.Objetivo: realizar operações de limpeza, tratamento e preparação dos dados.
+
+4.2.Verifique quais operações de pré-processamento podem ser interessantes para o seu problema e salve visões diferentes do seu dataset.
+
+4.2.1.Normalização
+
+4.2.2.Padronização
+
+4.2.3.Discretização 
+
+4.2.4.One-hot-encoding.
+
+4.3.Trate (removendo ou substituindo) os valores faltantes (se existentes).
+Realize outras transformações de dados porventura necessárias.
+Explique, passo a passo, as operações realizadas, justificando cada uma delas.
+Se julgar necessário, utilizando os dados pré-processados, volte na etapa de análise exploratória e verifique se surge algum insight diferente após as operações realizadas.
 
 5. Outliers
 6. Visualização da Distribuição dos Atributos
