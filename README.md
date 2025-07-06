@@ -41,10 +41,25 @@ Correlação de Spearman.
 >> Análise Exploratória
 
 Pandas
+
 Matplotlib
+
 Seaborn
 
 >> Definição do Problema:
+
+>> 0.Baseline de Random Forest com Avaliação (Acurácia, F1‑score, Matriz de confusão);
+
+A) Pré-processamento Completo: Lidar com valores faltantes e inconsistências de tipos de dados.
+
+B) Codificação de Variáveis Categóricas: Transformar nomes de pilotos, construtores, etc., em formato numérico.
+
+C) Divisão Treino-Teste: Separar os dados para treinamento e avaliação.
+
+D) Treinamento do Modelo Random Forest: Construir o modelo baseline.
+
+E) Avaliação: Calcular Acurácia, F1-score e Matriz de Confusão.
+
 
 1. Objetivo: entender e descrever claramente o problema que está sendo resolvido.
 
