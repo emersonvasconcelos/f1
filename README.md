@@ -8,6 +8,8 @@ Contexto, storytelling e hipóteses bem definidas;
 
 Checklists respondida, código limpo e bem documentado.
 
+Baseline de Random Forest com avaliação (acurácia, F1‑score, matriz de confusão);
+
 Pré-processamento com one-hot encoding e balanceamento via SMOTE;
 
 OutLiers
@@ -31,7 +33,7 @@ Correlação negativa —> uma sobe, a outra desce
 
 Correlação de Spearman.
 
-Baseline de Random Forest com avaliação (acurácia, F1‑score, matriz de confusão);
+
 
 
 Índice MVP-F1 Warm-Up:
