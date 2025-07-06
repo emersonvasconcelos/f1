@@ -2,36 +2,36 @@
 
 Escopo do Projeto MVP-F1 Warm-Up:
 
-Contexto, storytelling e hipóteses bem definidas
+Contexto, storytelling e hipóteses bem definidas;
 
-Carregamento -> Análise exploratória -> (Pré-processamento) -> Limpeza -> Split -> Transformações
+***Carregamento -> Análise exploratória -> (Start Pré-processamento) -> Limpeza -> Split -> Transformações***
+
+Checklists respondida, código limpo e bem documentado.
+
+Pré-processamento com one-hot encoding e balanceamento via SMOTE;
+
+OutLiers
 
 Estatísticas descritivas (min, max, média, mediana, moda, desvio padrão);
 
 Visualizações (histogramas, scatter, boxplots) com insights comentados;
 
-Pré-processamento com one-hot encoding e balanceamento via SMOTE;
-
-Baseline de Random Forest com avaliação (acurácia, F1‑score, matriz de confusão);
-
-Checklists respondida, código limpo e bem documentado.
-
-OutLiers
-
 Distribuição de Atributos
 
 Gráficos
 
-Correlação Pearson
-Usar correlação de pearson para variáveis numéricas contínuas
+Correlação Pearson 
+Usar correlação de pearson para variáveis numéricas contínuas 
 Usar correlação de spearman para variáveis ordinais ou com relação não linear
 
-Interpretação da correlação:
-Correlação positiva —> ambas sobem ou descem juntas
-Sem correlação —> não têm relação direta
+Interpretação da correlação: 
+Correlação positiva —> ambas sobem ou descem juntas 
+Sem correlação —> não têm relação direta 
 Correlação negativa —> uma sobe, a outra desce
 
 Correlação de Spearman.
+
+Baseline de Random Forest com avaliação (acurácia, F1‑score, matriz de confusão);
 
 
 Índice MVP-F1 Warm-Up:
