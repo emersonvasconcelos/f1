@@ -1,0 +1,21 @@
+Driver ID,Team,Full Name,Position,Points,Status,Time
+norris,McLaren,Lando Norris,1.0,25.0,Finished,0 days 01:42:06.304000
+max_verstappen,Red Bull Racing,Max Verstappen,2.0,18.0,Finished,0 days 00:00:00.895000
+russell,Mercedes,George Russell,3.0,15.0,Finished,0 days 00:00:08.481000
+antonelli,Mercedes,Andrea Kimi Antonelli,4.0,12.0,Finished,0 days 00:00:10.135000
+albon,Williams,Alexander Albon,5.0,10.0,Finished,0 days 00:00:12.773000
+stroll,Aston Martin,Lance Stroll,6.0,8.0,Finished,0 days 00:00:17.413000
+hulkenberg,Kick Sauber,Nico Hulkenberg,7.0,6.0,Finished,0 days 00:00:18.423000
+leclerc,Ferrari,Charles Leclerc,8.0,4.0,Finished,0 days 00:00:19.826000
+piastri,McLaren,Oscar Piastri,9.0,2.0,Finished,0 days 00:00:20.448000
+hamilton,Ferrari,Lewis Hamilton,10.0,1.0,Finished,0 days 00:00:22.473000
+gasly,Alpine,Pierre Gasly,11.0,0.0,Finished,0 days 00:00:26.502000
+tsunoda,Racing Bulls,Yuki Tsunoda,12.0,0.0,Finished,0 days 00:00:29.884000
+ocon,Haas F1 Team,Esteban Ocon,13.0,0.0,Finished,0 days 00:00:33.161000
+bearman,Haas F1 Team,Oliver Bearman,14.0,0.0,Finished,0 days 00:00:40.351000
+lawson,Red Bull Racing,Liam Lawson,15.0,0.0,Retired,
+bortoleto,Kick Sauber,Gabriel Bortoleto,16.0,0.0,Retired,
+alonso,Aston Martin,Fernando Alonso,17.0,0.0,Retired,
+sainz,Williams,Carlos Sainz,18.0,0.0,Retired,
+doohan,Alpine,Jack Doohan,19.0,0.0,Retired,
+hadjar,Racing Bulls,Isack Hadjar,20.0,0.0,Retired,
