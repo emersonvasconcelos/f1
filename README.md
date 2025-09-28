@@ -1,5 +1,65 @@
 # MVP-F1
-Sistema Estatística F1 de 1950 até hoje.
+Sistema Estatística F1 de 1950 até hoje 2025...
+
+# MVP-F1_War_Machine
+Este Projeto de Machine Learning está na branch: machine.
+https://github.com/emersonvasconcelos/f1/blob/machine/MVP_F1_War_Machine.ipynb
+
+# Objetivo MVP-F1 Machine Learning:
+Desenvolver um Minimum Viable Product (MVP) que demonstre a capacidade de coletar, processar, armazenar e analisar dados históricos da Fórmula 1 ao longo de seus 75 anos, gerando insights valiosos para entusiastas, analistas e potenciais usuários de uma plataforma de dados mais completa.
+Predição para Modelo Estagio Supervisionado em Classificação & Regressão na disputa do Campeonato de Pilotos & Construtores na Temporada de F1-2025 entre todas as Equipes & Pilotos, mas especificamente entre Red Bull, McLaren.
+
+# MVP-F1 War Machine - Escopo, objetivo e definição do problema 
+
+Contexto do problema e objetivo (ex.: previsão de churn, detecção de fraude, previsão de demanda, segmentação de clientes etc.).
+Tipo de tarefa: classificação, regressão, clusterização ou séries temporais (forecasting).
+Área de aplicação: visão computacional, NLP, dados tabulares, sensores, etc.
+Valor para o negócio/usuário.
+Escopo, Objetivo e Definição do Problema MVP-F1 War Machine
+Contexto do Problema e Objetivo O projeto MVP-F1 War Machine está inserido no contexto de análise de dados e modelagem preditiva para o automobilismo, especificamente a Fórmula 1.
+
+O objetivo central do projeto é desenvolver um modelo de machine learning capaz de prever a posição final de cada piloto em futuras corridas da temporada.
+
+Utilizando um rico conjunto de dados históricos das temporadas 2024 e 2025 (como resultados de corridas, sprints e performance passada), o modelo busca identificar padrões que influenciam o resultado de um evento.
+
+Tipo de Tarefa A tarefa principal é de regressão, pois o alvo da predição é uma variável numérica contínua: a posição final (Final_Position_Numeric).
+
+No entanto, devido à natureza sequencial e cronológica dos dados (uma corrida acontece após a outra), o problema é tratado como uma tarefa de previsão de séries temporais (forecasting), onde técnicas de regressão são aplicadas para prever o próximo evento na sequência temporal.
+
+A metodologia empregada no notebook, como a divisão cronológica dos dados e o uso de TimeSeriesSplit, confirma essa abordagem.
+
+Área de Aplicação A área de aplicação é a análise de dados tabulares. O projeto utiliza exclusivamente dados estruturados em tabelas (arquivos .csv), contendo informações como temporada, ordem da corrida, pista, piloto, equipe e métricas de performance (pontos, vitórias, etc.).
+
+Valor para o Negócio/Usuário O valor gerado pelo MVP-F1 War Machine é multifacetado:
+
+Para o Usuário (Fãs e Entusiastas): Oferece uma ferramenta analítica para acompanhar o campeonato, permitindo simular o restante da temporada e visualizar projeções de classificação final para pilotos e construtores. Isso enriquece a experiência do fã com insights baseados em dados.
+
+Para o Negócio (Mídia, Plataformas de Conteúdo e Apostas): O modelo serve como uma base sólida para a criação de conteúdo analítico, como "power rankings", previsões pré-corrida e artigos sobre o provável desfecho do campeonato. Para o setor de apostas, pode ser uma ferramenta auxiliar na definição de odds e na identificação de tendências de performance.
+
+Para Equipes (Análise Competitiva): Em uma escala mais avançada, a lógica do modelo poderia ser adaptada para benchmarking de performance, ajudando equipes a entenderem suas forças e fraquezas em diferentes tipos de circuito e a projetar cenários competitivos.
+
+## 🚀 Checklist do MVP-F1 War Machine.
+- [✅] **01. Problema definido** e contexto de negócio MVP-F1_War_Machine
+- [✅] **02. Fundação de Performance Equipes na Temporada F1 2024 X 2025**
+- [✅] **03. Carga e preparação** dos dados (sem vazamento de dados)
+- [✅] **04. Engenharia Reversa**
+- [✅] **05. Divisão** em treino/validação/teste (ou validação cruzada apropriada)
+- [✅] **06. Tratamento**: limpeza, transformação e **engenharia de atributos**
+- [✅] **07. Modelagem**: comparar abordagens/modelos (com **baseline**)
+- [✅] **08. Otimização de hiperparâmetros**
+- [✅] **09. Avaliação** com **métricas adequadas** e discussão de limitações
+- [✅] **10. Gráfico e Distribuição de Resíduos**
+- [✅] **11. Boas práticas**: seeds fixas, tempo de treino, recursos computacionais, documentação
+- [✅] **12. Pipelines reprodutíveis** (sempre que possível)
+- [✅] **13. Gráficos Benchmarking Pilotos & McLaren X Red Bull**
+- [✅] **14. Engenharia de Atributos**
+- [✅] **15. Deep Learning**
+- [✅] **16. Boas Práticas e Rastreabilidade**
+- [✅] **17. Garantindo Eficiência na Predição Temporada F1-25**
+- [✅] **18. Mapa de Resultados MVP-F1_War_Machine Temporada F1-2025**
+- [✅] **19. Conclusões e Próximos Passos**
+- [✅] **20. Referência Bibliográfica**
+
 
 # Wiki MVP-F1
 Todo o Funcionamento, Recursos, Coleta, Catálogo, Analise de Dados, Insights com Solução de Problemas estão na # Wiki.
